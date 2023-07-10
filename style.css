@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 15px;
+}
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217, 54%, 11%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  width: 22rem;
+  height: auto;
+  background-color: hsl(216, 50%, 16%);
+  border: 2px solid hsl(216, 50%, 16%);
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+/* image ethereum starts here! */
+
+.image-equilibrium {
+  width: 100%;
+  border-radius: 12px;
+}
+.image-box {
+  width: 19rem;
+}
+.box h2 {
+  margin: 0.5rem;
+  text-align: start;
+  color: hsl(0, 0%, 100%);
+}
+.box p {
+  margin: 0.5rem;
+  text-align: start;
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 1rem;
+}
+.card-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.info-left {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.left-text {
+  color: hsl(178, 100%, 50%);
+}
+.info-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.right-text {
+  color: hsl(215, 51%, 70%);
+}
+.card-profile {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+.profile-images {
+  width: 2.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.spl-text {
+  color: hsl(215, 51%, 70%);
+}
+.profile-info {
+  margin: 1rem;
+}
+.spl-comment {
+  color: white;
+  margin: 0.3rem;
+}
